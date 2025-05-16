@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/all_sensors"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/all_sensors" />
+        <item
+            android:id="@+id/accelerometer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/accelerometer" />
+        <item
+            android:id="@+id/gyroscope"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/gyroscope" />
+        <item
+            android:id="@+id/nav_magnetometer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/magnetometer" />
+        <item
+            android:id="@+id/nav_proximity"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/proximity" />
+        <item
+            android:id="@+id/nav_photometer"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/photometer" />
+
+
+    </group>
+</menu>

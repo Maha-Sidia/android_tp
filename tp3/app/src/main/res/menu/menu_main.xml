@@ -1,0 +1,54 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.tp33.MainActivity">
+
+    <item
+        android:id="@+id/menu_calls"
+        android:title="@string/menu_calls">
+        <menu>
+            <item
+                android:id="@+id/item_call_normal"
+                android:icon="@android:drawable/sym_action_call"
+                android:title="@string/menu_call_normal" />
+            <item
+                android:id="@+id/item_call_urgence"
+                android:icon="@android:drawable/sym_call_outgoing"
+                android:title="@string/menu_call_urgence" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_sms"
+        android:title="@string/menu_sms">
+        <menu>
+            <item
+                android:id="@+id/item_sms_normal"
+                android:icon="@android:drawable/ic_dialog_email"
+                android:title="@string/menu_sms_normal" />
+            <item
+                android:id="@+id/item_sms_urgence"
+                android:icon="@android:drawable/sym_action_chat"
+                android:title="@string/menu_sms_urgence" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/menu_camera" />
+
+    <item
+        android:id="@+id/item_quit"
+        android:icon="@android:drawable/ic_menu_set_as"
+        android:title="@string/menu_quit"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+</menu>

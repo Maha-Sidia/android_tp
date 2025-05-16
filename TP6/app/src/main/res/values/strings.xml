@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TP6</string>
+    <string name="textview">TextView</string>
+    <string name="city_text">city_text</string>
+    <string name="tem">TextView</string>
+    <string name="pays">TextView</string>
+    <string name="hum">TextView</string>
+    <string name="vite">TextView</string>
+    <string name="desc">TextView</string>
+</resources>

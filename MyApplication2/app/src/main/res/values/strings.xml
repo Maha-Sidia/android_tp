@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="fixit">FixIt</string>
+    <string name="login">Login</string>
+    <string name="if_you_don_t_have_an_account_please_signup">if you don\'t have an account please SignUp</string>
+    <string name="let_s_fix_it">Let\'s Fix IT</string>
+    <string name="welcome_to_fixit">Welcome to fixIt</string>
+    <string name="write_your_password">Write your password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="name">Name</string>
+    <string name="first_name">First name</string>
+    <string name="e_mail">E-mail</string>
+    <string name="phone_number">Phone number</string>
+    <string name="normal_user">Normal User</string>
+    <string name="repairer_user">Repairer User</string>
+</resources>
